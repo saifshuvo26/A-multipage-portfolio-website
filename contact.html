@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Minions Tech</title>
+</head>
+<body>
+
+
+<section id="service">
+    <div class="container-fluid">
+        <div id="myNav" class="overlay">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <div class="overlay-content">
+                <a class="effect-shine" href="index.html">Home</a>
+                <a class="effect-shine" href="about.html">About Us</a>
+                <a class="effect-shine" href="service.html">Services</a>
+                <a class="effect-shine" href="contact.html">Contact</a>
+            </div>
+        </div>
+        <a class="navbar-brand" href="index.hrml">Minions Tech</a>
+        <span class="tog" style="font-size:35px;cursor:pointer" onclick="openNav()">&#9776;</span>
+
+    </div>
+
+    <!--contact-->
+    <div class="container">
+        <div class="row">
+            <div class="ourService">
+                <h1 class="serviceHeading">Contact Us</h1>
+                <p class="address descriptionFont middle">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet architecto aspernatur culpa debitis deserunt iure laudantium minus Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
+
+                <form>
+                    <div class="form-group">
+                      <label for="userName">Your Name</label>
+                      <input type="text" class="form-control" id="userName" placeholder="Enter Your Name">
+                    </div>
+                    <div class="form-group">
+                      <label for="userEmail">Email</label>
+                      <input type="email" class="form-control" id="userEmail" placeholder="Enter Your Email">
+                    </div>
+                    <div class="form-group">
+                        <label for="userMessage">Your Message</label>
+                        <textarea class="form-control" id="userMessage" rows="3"></textarea>
+                      </div>
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                  </form>
+            </div>
+        </div>
+    </div>
+
+
+
+    <footer class="footer">
+           
+        <div class="socialMedia">
+            <i class="fab fa-facebook"></i>
+            <i class="far fa-envelope"></i>
+            <i class="fab fa-linkedin"></i>
+        </div>
+
+    </footer>
+
+
+</section>
+
+
+
+
+
+
+
+
+
+
+
+<!--Custom js-->
+<script>
+    function openNav() {
+        document.getElementById("myNav").style.width = "50%";
+    }
+
+    function closeNav() {
+        document.getElementById("myNav").style.width = "0%";
+    }
+</script>
+
+<!--Bootstrap js-->
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+
+</body>
+</html>
